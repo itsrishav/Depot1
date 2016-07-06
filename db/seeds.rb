@@ -20,17 +20,6 @@ Product.create!(title: 'CoffeeScript',
   image_url:   'cs.jpg',    
   price: 36.00)
 # . . .
-Product.create!(title: 'Programming Ruby 1.9 & 2.0',
-  description:
-    %{<p>
-        Ruby is the fastest growing and most exciting dynamic language
-        out there. If you need to get working programs delivered fast,
-        you should add Ruby to your toolbox.
-      </p>},
-  image_url: 'ruby.jpg',
-  price: 49.95)
-# . . .
-
 Product.create!(title: 'Rails Test Prescriptions',
   description: 
     %{<p>
@@ -43,3 +32,14 @@ Product.create!(title: 'Rails Test Prescriptions',
       </p>},
   image_url: 'rtp.jpg',
   price: 34.95)
+# . . .
+Product.create!(title: 'Programming Ruby 1.9 & 2.0',
+  description:
+    %{<p>
+        Ruby is the fastest growing and most exciting dynamic language
+        out there. If you need to get working programs delivered fast,
+        you should add Ruby to your toolbox.
+      </p>},
+  image_url: 'ruby.jpg',
+  price: 49.95)
+
