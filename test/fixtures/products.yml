@@ -11,3 +11,9 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+
+ruby:
+  title: Version 2.2.0
+  description: Fast and Dynamic Language.
+  image_url: ruby.png
+  price: 40.02
